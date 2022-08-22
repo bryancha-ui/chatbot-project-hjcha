@@ -31,9 +31,9 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    # db_create()
+    db_create()
     return "Hello3!"
 
 if __name__ == "__main__":
-    db_create()
+    # db_create()
     app.run()
