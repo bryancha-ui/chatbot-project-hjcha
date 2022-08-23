@@ -3,12 +3,12 @@ import pandas as pd
 from sqlalchemy import create_engine
 import psycopg2
 
-engine = create_engine("postgresql://xnrniyjhurkuos:b0d752cc9e29106fb8c4b1f7cd39c985a5a23bb67a35d8c365a6175355e9bf13@ec2-50-19-255-190.compute-1.amazonaws.com:5432/dashvvhprslttt", echo = False)
+engine = create_engine("postgresql://cnydwzldgtmgee:14146368f07d7868e027f3097f6f54876788e37dd531eb365d80d665682f070d@ec2-54-86-106-48.compute-1.amazonaws.com:5432/d3s0cr9g4rtoc1", echo = False)
 
 engine.connect()
 
 def db_create():
-    engine = create_engine("postgresql://xnrniyjhurkuos:b0d752cc9e29106fb8c4b1f7cd39c985a5a23bb67a35d8c365a6175355e9bf13@ec2-50-19-255-190.compute-1.amazonaws.com:5432/dashvvhprslttt", echo = False)
+    engine = create_engine("postgresql://cnydwzldgtmgee:14146368f07d7868e027f3097f6f54876788e37dd531eb365d80d665682f070d@ec2-54-86-106-48.compute-1.amazonaws.com:5432/d3s0cr9g4rtoc1", echo = False)
 
     engine.connect()
 
