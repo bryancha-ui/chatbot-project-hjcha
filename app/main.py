@@ -30,7 +30,7 @@ def test():
         }
     }
 
-@app.route("/api/234")
+@app.route("/api/qwerasdf")
 def qwerasdf():
     req = request.get_json()
     response = {
