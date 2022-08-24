@@ -30,6 +30,7 @@ def test():
         }
     }
 
+
 @app.route("/api/qwerasdf")
 def qwerasdf():
     req = request.get_json()
@@ -38,22 +39,17 @@ def qwerasdf():
         "template": {
             "outputs": [
                 {
-                    "commerceCard": {
-                        "description": "민간분양 우선공급 유형",
-                        "thumbnails": [
-                            {
-                                "imageUrl": "https://t1.kakaocdn.net/openbuilder/sample/lj3JUcmrzC53YIjNDkqbWK.jpg",
-                                "link": {
-                                    "web": "https://store.kakaofriends.com/kr/products/1542"
-                                }
-                            }
-                        ],
+                    "basicCard": {
+                        "title": "민간분양 일반공급 유형",
+                        "thumbnail": {
+                            "imageUrl": "https://t1.kakaocdn.net/openbuilder/sample/lj3JUcmrzC53YIjNDkqbWK.jpg"
+                        },
                         "buttons": [
                             {
+                                "action": "block",
                                 "label": "순위요건",
-                                "action": "webLink",
-                                "webLinkUrl": "https://store.kakaofriends.com/kr/products/1542"
-                            },
+                                "blockId": "62f5df6f70055f434dcd05ed"
+                            }
                         ]
                     }
                 }
