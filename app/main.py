@@ -34,6 +34,7 @@ def test():
 @app.route("/api/qwerasdf")
 def qwerasdf():
     req = request.get_json()
+    print(req)
     response = {
         "version": "2.0",
         "template": {
