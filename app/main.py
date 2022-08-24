@@ -30,7 +30,7 @@ def test():
     return response
 
 
-@app.route("/api/qwerasdf")
+@app.route("/api/qwerasdf", methods = ['POST'])
 def qwerasdf():
     req = request.get_json()
     print(req)
