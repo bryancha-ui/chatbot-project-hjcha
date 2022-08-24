@@ -27,6 +27,7 @@ def test():
             ]
         }
     }
+    return response
 
 
 @app.route("/api/qwerasdf")
