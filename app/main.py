@@ -41,9 +41,6 @@ def qwerasdf():
                 {
                     "basicCard": {
                         "title": "민간분양 일반공급 유형",
-                        "thumbnail": {
-                            "imageUrl": "https://t1.kakaocdn.net/openbuilder/sample/lj3JUcmrzC53YIjNDkqbWK.jpg"
-                        },
                         "buttons": [
                             {
                                 "action": "block",
