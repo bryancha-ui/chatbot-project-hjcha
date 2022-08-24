@@ -5,13 +5,11 @@ import os,sys, json
 import pandas as pd 
 from sqlalchemy import create_engine, MetaData, Table, Column, Integer, String
 import psycopg2
-import database
 
 app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    database.db_create()
     return "Verson : 97"
 
 @app.route("/api/hello")
