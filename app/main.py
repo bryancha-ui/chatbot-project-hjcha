@@ -12,7 +12,7 @@ app = Flask(__name__)
 def hello():
     return "Verson : 97"
 
-@app.route("/api/hello")
+@app.route("/api/hello", methods = ['POST'])
 def test():
     req = request.get_json()
     response = {
