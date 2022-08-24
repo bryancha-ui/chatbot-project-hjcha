@@ -31,7 +31,7 @@ def test():
     }
 
 @app.route("/api/234")
-def test():
+def qwerasdf():
     req = request.get_json()
     response = {
         "version": "2.0",
