@@ -42,7 +42,7 @@ def qwerasdf():
                     "basicCard": {
                         "title": "민간분양 일반공급 유형",
                         "thumbnail": {
-                            "imageUrl": "https://t1.kakaocdn.net/openbuilder/sample/lj3JUcmrzC53YIjNDkqbWK.jpg"
+                            "imageUrl": "https://github.com/bryancha-ui/chatbot-project-hjcha/blob/main/app/image/KakaoTalk_%EC%9D%BC%EB%B0%98%EB%B6%84%EC%96%91%20%EB%AF%BC%EA%B0%84.png"
                         },
                         "buttons": [
                             {
