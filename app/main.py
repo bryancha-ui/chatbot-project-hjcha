@@ -57,3 +57,31 @@ def qwerasdf():
         }
     }
     return response
+
+@app.route("/api/qwerasdfd", methods = ['POST'])
+def qwerasdfd():
+    req = request.get_json()
+    print(req)
+    response = {
+        "version": "2.0",
+        "template": {
+            "outputs": [
+                {
+                    "basicCard": {
+                        "thumbnail": {
+                            "imageUrl": "https://t1.kakaocdn.net/openbuilder/sample/lj3JUcmrzC53YIjNDkqbWK.jpg"
+                        },
+                        "buttons": [
+                            {
+                                "action": "block",
+                                "label": "가점제 점수계산표",
+                                "blockId": "62fcf4c58a1240569898cd10"
+                            }
+                        ]
+                    },
+                }
+            ]
+        }
+    }
+    return response
+
