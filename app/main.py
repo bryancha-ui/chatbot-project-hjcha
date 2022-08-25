@@ -49,11 +49,6 @@ def qwerasdf():
                                 "action": "block",
                                 "label": "순위요건",
                                 "blockId": "62f5df6f70055f434dcd05ed"
-                            },
-                            {
-                                "action": "block",
-                                "label": "다시하기",
-                                "blockId": "62fcf4c58a1240569898cd10"
                             }
                         ]
                     },
