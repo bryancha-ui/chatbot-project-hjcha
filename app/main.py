@@ -69,7 +69,7 @@ def qwerasdfd():
                 {
                     "basicCard": {
                         "thumbnail": {
-                            "imageUrl": "https://t1.kakaocdn.net/openbuilder/sample/lj3JUcmrzC53YIjNDkqbWK.jpg"
+                            "imageUrl": "https://github.com/bryancha-ui/chatbot-project-hjcha/blob/main/app/image/KakaoTalk_%EA%B0%80%EC%A0%90%EC%A0%9C.png"
                         },
                         "buttons": [
                             {
