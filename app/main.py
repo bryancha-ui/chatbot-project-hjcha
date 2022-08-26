@@ -43,8 +43,8 @@ def qwerasdf():
                         "title": "민간분양 일반공급 유형",
                         "thumbnail": {
                             "imageUrl": "https://raw.githubusercontent.com/bryancha-ui/chatbot-project-hjcha/main/app/image/KakaoTalk_regular.png",
-                            "width": 800,
-                            "height": 800
+                            "width": 1200,
+                            "height": 1200
                         },
                         "buttons": [
                             {
@@ -72,8 +72,8 @@ def qwerasdfd():
                     "basicCard": {
                         "thumbnail": {
                             "imageUrl": "https://raw.githubusercontent.com/bryancha-ui/chatbot-project-hjcha/main/app/image/KakaoTalk_point.png",
-                            "width": 800,
-                            "height": 800
+                            "width": 1200,
+                            "height": 1200
                         },
                         "buttons": [
                             {
